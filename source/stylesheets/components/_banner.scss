@@ -1,0 +1,40 @@
+.banner {
+  color: $gray;
+  height: calc(100vh - 140px);
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.banner h1 {
+  font-size: 28px;
+  font-weight: bold;
+  opacity: 0.9;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  color: $green;
+  font-family: 'Dancing Script', cursive !important;
+}
+.banner-link {
+  font-size: 22px;
+  font-weight: lighter;
+  color: $gray;
+  opacity: 0.5;
+  margin-bottom: 30px;
+  &:hover {
+    color: $green;
+    opacity: 0.9;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+  }
+}
+.banner-flat {
+  color: $light-gray;
+  text-align: center;
+  height: 50vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

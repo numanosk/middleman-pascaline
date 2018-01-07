@@ -1,5 +1,38 @@
-<div class="container text-center">
 
-  <h1> Nous sommes <%= Date.today%> </h1>
+<div class="banner" style="background-image: linear-gradient(rgba(109,177,147,0.2), rgba(247,182,51,0.2)), url('<%= image_path 'baby.jpg' %>');">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Cabinet Pascaline Jequier</h1>
+        </div>
+      </div>
+
+      <div class="row" style="margin-bottom: 5px;">
+        <div class="col-xs-12">
+          <%= link_to "Rééducation pédiatrique", "activite.html", {style: "padding: 7px 0;", class: "banner-link"}%>
+        </div>
+      </div>
+
+      <div class="row" style="margin-bottom: 5px;">
+        <div class="col-xs-12">
+          <%= link_to "Rééducation périnéale", "activite.html", {style: "padding: 7px 4px;", class: "banner-link"}%>
+        </div>
+      </div>
+
+      <div class="row" style="margin-bottom: 5px;">
+        <div class="col-xs-12">
+          <%= link_to "Massages bien-être", "activite.html", {style: "padding: 7px 8px;", class: "banner-link"}%>
+        </div>
+      </div>
+
+      <div class="row" style="margin-bottom: 5px;">
+        <div class="col-xs-12">
+          <%= link_to "Kinésithérapie traditionnelle", "activite.html", {style: "padding: 7px 12px;", class: "banner-link"}%>
+        </div>
+      </div>
+
+    </div>
 
 </div>
